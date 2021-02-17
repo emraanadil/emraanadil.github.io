@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^139\.59\.21\.61
+RewriteRule (.*) https://emraanadil.xyz/$1 [R=301,L]
